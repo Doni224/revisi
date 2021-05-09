@@ -1,0 +1,12 @@
+#program-mb {
+    display:none;
+}
+
+@media only screen and (max-width: 800px) {
+    #program {
+        display: none;
+    }
+    #program-mb {
+        display: block;
+    }
+}
