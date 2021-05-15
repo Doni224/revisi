@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="animate.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <img src="images/logo/logo.png" style="width: 40px;" alt="">
+                <img src="images/logo/logo.png" style="width: 50px;" alt="">
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -38,7 +40,7 @@
                             <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Kontak">Contact</a>
+                            <a class="nav-link" href="#maps">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://rumahquran05tegal.blogspot.com/">Blog</a>
@@ -59,7 +61,7 @@
             <a style="margin-right:12px;" href="https://web.facebook.com/Rumah-Quran-5-Tegal-107273457458986" target="_blank">
                 <img style="width:38px;height:39px;" src="images/facebook.png" class="share-konten">
             </a>
-            <a style="margin-left:12px;" href="https://web.facebook.com/Rumah-Quran-5-Tegal-107273457458986" target="_blank">
+            <a style="margin-left:12px;" href="https://www.instagram.com/rumahdakwahmamur/" target="_blank">
                 <img style="width:39px;height:39px;" src="images/instagram.png" class="share-konten">
             </a>
         </div>
@@ -268,7 +270,8 @@
             </div>
         </div>
     </div>
-    <div class="maps" id="Kontak" style="display: flex; padding-left: 40px;">
+  
+    <div id="maps" id="Kontak" style="display: flex; padding-left: 40px;">
     <form id="form">
         <h4 class="display-6 fw-bold lh-1 pb-3 border-bottom">Hubungi Kami</h1><br>
         <div class="field">
@@ -287,14 +290,43 @@
         <input style="margin-left: 50px;" type="submit" id="button" value="Kirim " >
       </form>
       
-        <div style="padding-left: 5em; top: 50px;; visibility: visible; animation-name: fadeInRight;" class="contacts wow fadeInRight col-md-6">
-        <h3>Rumah Qur'an 5 Tegal</h3>
+      <div style="padding-left: 6em; visibility: visible; animation-name: fadeInRight;" id="contacts wow fadeInRight col-md-6">
+        <h3 style="margin-top: 60px;">Informasi Kontak</h3>
         <br>
-        <li class=" "><a href="" target="_self"><i class=""></i>  <i ></i> +62812-2222-3800</a></li>
-
+        <div class="contact">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="svg-inline--fa fa-phone fa-w-16" role="img" style="width: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="rgba(0,0,0,0.3)" d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                </path>
+            </svg>
+            <p style="margin-left:12px;">0812-2712-1291</p>
+        </div> <br>
+        <div style="margin-top:-1.5em;" class="contact">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18 0H2C1.25057 0 0.593979 0.417749 0.251583 1.03188C0.363831 1.06104 0.472875 1.11036 0.573462 1.18077L10 7.77934L19.4265 1.18077C19.5271 1.11036 19.6362 1.06104 19.7484 1.03189C19.406 0.41775 18.7494 0 18 0ZM20 3.22066L10.5735 9.81923C10.2291 10.0603 9.77086 10.0603 9.42654 9.81923L0 3.22066V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V3.22066Z" fill="rgba(0,0,0,0.3)"></path>
+            </svg>
+            <p style="margin-left:12px;">ruma</p>
         </div>
+        <div class="social">
+            <h5 class="my-3">Sosial Media</h5>
+            <div class="d-flex">
+                <a style="margin-right: 12px;" href="https://web.facebook.com/Rumah-Quran-5-Tegal-107273457458986" target="_blank">
+                    <img style= " width: 50px; margin-left:inherit" src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/rumahdakwahmamur/" target="_blank">
+                    <img style="width: 50px;" src="images/instagram.png" alt="instagram">
+                </a>
+            </div>
+        </div><br><br>
+        <div class="offer">
+            <p><span style="opacity:.6;font-weight:600">Tarif dan penawaran dapat dihubungi
+                    melalui link berikut: </span>
+                <a href="https://wisata-embung-desa-rembul.business.site/" target="_blank">
+                    Dapatkan penawaran
+                </a></p>
+        </div>
+      </div>
 </div>
-<div class="map" style="width:100%; margin-top: 100px;">
+<div class="map" style="width:100%; margin-top: 70px;">
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5006.446115356483!2d109.13994939873915!3d-6.973815541762118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srumahdakwahmakmur%20tegal!5e0!3m2!1sid!2sid!4v1620173169984!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     </div>
@@ -304,8 +336,13 @@
       <script type="text/javascript">
         emailjs.init('user_cCJXFxRvHNkWBfLAmRC5f')
       </script>
-    <div class="col-md-6">
-   
+        <!-- Footer -->
+<div class="foot">
+    <footer>
+        
+    </footer>
+</div>
+      
     </body>
 <script src="wow.js"></script>
 <script>
